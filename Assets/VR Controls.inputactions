@@ -1,0 +1,40 @@
+{
+    "name": "VR Controls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "264f9f44-3fe6-43b4-837a-39819b7c7218",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "7c51047e-45b7-49e7-aade-8b3d22fb8624",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6b4dc982-ddc3-41d9-a56f-3d9d6ab53704",
+                    "path": "<OpenXRDevice>",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "VR",
+            "bindingGroup": "VR",
+            "devices": []
+        }
+    ]
+}
